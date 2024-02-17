@@ -1,13 +1,15 @@
-name: Start tests
-on: push
+# Выдели и нажми на  Ctrl + / для раскомментирования
 
-jobs:
-    testing:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-            - run: npm ci
-            - run: |
-                  npm run build
-                  npm test
+# name: Start tests
+# on: push
+
+# jobs:
+#     testing:
+#         runs-on: ubuntu-latest
+#         steps:
+#             - uses: actions/checkout@v4
+#             - uses: actions/setup-node@v4
+#             - run: npm ci
+#             - run: |
+#                   npm run build
+#                   npm test

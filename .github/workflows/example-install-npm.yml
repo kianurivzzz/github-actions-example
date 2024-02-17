@@ -1,11 +1,13 @@
-name: Install EditorConfig
-on: push
+# Выдели и нажми на  Ctrl + / для раскомментирования
 
-jobs:
-    editorconfig:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-            - run: npm ci
-            - run: npm run editorconfig
+# name: Install EditorConfig
+# on: push
+
+# jobs:
+#     editorconfig:
+#         runs-on: ubuntu-latest
+#         steps:
+#             - uses: actions/checkout@v4
+#             - uses: actions/setup-node@v4
+#             - run: npm ci
+#             - run: npm run editorconfig
